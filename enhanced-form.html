@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week2 Html</title>
+  </head>
+  <body>
+    <section>
+      <h1>Use Of List</h1>
+      <h2>Unordered List</h2>
+      <p>This are examples of an unordered lists:</p>
+      <ul>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Boys</li>
+        <li>Girls</li>
+        <li>Children</li>
+      </ul>
+
+      <ol>
+        <h2>Ordered List</h2>
+        <p>This are examples of an ordered lists:</p>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Boys</li>
+        <li>Girls</li>
+        <li>Children</li>
+      </ol>
+
+      <ol>
+        <h2>Nested List</h2>
+        <p>
+          This are examples of a nested
+          <li>
+            Good Developer
+            <ul>
+              <li>Good in HTML</li>
+              <li>Good in CSS</li>
+              <li>Good in JavaScript</li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            Software Engineer
+            <ul>
+              <li>Good in Python</li>
+              <li>Good in Java</li>
+              <li>Good in C++</li>
+            </ul>
+          </li>
+        </p>
+      </ol>
+    </section>
+
+    <h1>Table</h1>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Location</th>
+          <th>Age</th>
+          <th>Hubbies</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ishaq</td>
+          <td>Nigeria</td>
+          <td>17</td>
+          <td>Coding</td>
+        </tr>
+
+        <tr>
+          <td>John</td>
+          <td>Uganda</td>
+          <td>30</td>
+          <td>Reading</td>
+        </tr>
+        <tr>
+          <td>Musa</td>
+          AS
+          <td>Kenya</td>
+          <td>35</td>
+          <td>Travelling</td>
+        </tr>
+        <tr>
+          <td>Moses</td>
+          <td>Angola</td>
+          <td>33</td>
+          <td>Learning</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <section>
+      <h1>Media Section</h1>
+      <p>This is an example of a media section that contains an image, audio, and video.</p>
+      <br />
+      <img src="computer-4795762_640.jpg" alt="Placeholder Image" width="350px" />
+      <br />
+      <audio controls>
+        <source src="umami-happy-ukulele-kids-music-379064.mp3" type="audio/mpeg" />
+      </audio>
+      <br />
+      <br />
+      <video width="320" height="240" muted controls>
+        <source src="istockphoto-2156675608-640_adpp_is.mp4"video/mp4" />
+      </video>
+    </section>
+
+    <section>
+       <h1>Form</h1>
+      <form action="#" method="post" autocomplete="on">
+     
+      <label for="fname">First Name:</label>
+      <input type="text" name="fname" id="" placeholder="Input Your First Name" required autocomplete="name" />
+      <br />
+      <br />
+      <label for="fname">Last Name:</label>
+      <input type="text" name="lname" id="" placeholder="Input Your Last Name" required autocomplete="name" />
+      <br />
+      <br />
+      <label for="fnumber">Phone No.:</label>
+      <input type="number" name="fname" id="" placeholder="Input Your Number" required autocomplete="cc-number" />
+      <br />
+      <br />
+      <label for="fname">Valid Mail:</label>
+      <input type="email" name="email" id="" placeholder="you@gmail.com" required autocomplete="email" />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" placeholder="create password" required>
+      <br>
+      <br>
+      <p>Select Gender</p>
+      <input type="radio" name="gender" id="male" value="male" required>
+      <label for="male">Male</label>
+      <br>
+      <br>
+      <input type="radio" name="gender" id="female" value="female" required>
+      <label for="female">Female</label>
+      <br>
+      <br>
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" id="dob" required>
+      <br>
+      <br>
+<label for="country">Select Country</label>
+<select name="country" id="country" required>
+<option value="">--Select</option>
+<option value="ken">Kenya</option>
+<option value="nig">Nigeria</option>
+<option value="kon">Kongo</option>
+<option value="gha">Ghana</option>
+<option value="mor">Morocco</option>
+<option value="buk">Burkina Faso</option>
+</select>
+<br>
+<br>
+<label for="state">State of Origin</label>
+<input type="text" name="state" id="state" placeholder="Your State" autocomplete="address-level1" >
+<br>
+<br>
+<p>Favorite color</p>
+<input type="checkbox" name="color" id="white" value="white">
+<label for="white">WHITE</label>
+<input type="checkbox" name="color" id="yello" value="yellow">
+<label for="white">YELLOW</label>
+<input type="checkbox" name="color" id="blue" value="blue">
+<label for="white">BLUE</label>
+<br>
+<br>
+      <label for="fname">Message:</label> <br>
+      <textarea name="message" id="message" rows="4" cols="30" placeholder="Leave your message here..."></textarea>
+      <br />
+      <br />
+     <button type="submit">Submit</button>
+    </section>
+    </form>
+  </body>
+</html>
